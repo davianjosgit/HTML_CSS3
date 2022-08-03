@@ -1,0 +1,40 @@
+*{padding: 0;}
+
+#menu1 {
+display:flex;
+flex-direction: row;
+
+}ul{
+  list-style: none;
+}#menu1 ul li ul{
+    display:none;
+    background-color: rgb(19, 18, 18);
+}#menu1 li:hover ul{
+
+display: block;
+
+}ul{
+
+    display: flex;
+    position: absolute;
+    
+
+}a{
+    text-decoration: none;
+    padding: 5px;
+    color: aliceblue;
+
+}ul li{
+
+    padding: 10px;
+    color: aliceblue;
+}#servico, #contato, #precos{
+
+    background-color:black;
+    
+}nav ul li ul{
+
+    margin-top: 11px;
+
+    
+}

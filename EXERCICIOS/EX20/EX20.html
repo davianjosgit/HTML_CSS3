@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando links</title>
+    <style>
+        a:visited{
+
+            color: rgb(203, 236, 12);
+        }a:hover{
+
+            text-decoration: underline;
+            color: black;
+        }a{
+            text-decoration: none;
+        }a::after{
+
+            content: "[link]";
+        }a::before{
+
+            content: "[link]";
+        }#actionDiv{
+
+            background-color: black;
+            width: 200px;
+            height: 200px;
+        }#actionDiv:active{
+
+
+            background-color: aqua;
+            transition: s;
+        }#actionDiv::before{
+
+            content: "sdfdfsdf";
+            color: blue;
+        }#actionDiv::after :hover{
+
+            content: "sdfdfsdf";
+            color: blue;
+            color: blueviolet;
+        }#entarda{
+
+
+
+
+        }#entrada::after{
+
+           content:"Desativado" ;
+           color: black; 
+           left: 15px;
+           position: relative;
+        }#entrada:checked::after{
+
+            content:"Ha";
+
+         
+        }
+
+
+    </style>
+</head>
+<body>
+    <a href="http://www.google.com" target="_blank">
+        <p>Google!</p>
+    </a>
+
+
+    <div id="actionDiv">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat officiis, natus similique expedita reprehenderit temporibus! Reiciendis cumque veritatis beatae consectetur sequi. Excepturi, corrupti odit ipsa aspernatur fugiat tempore illo minima
+
+
+
+        
+
+        	
+
+    </div>
+
+
+    <input type="checkbox" id="entrada">
+
+    
+
+
+</body>
+</html>

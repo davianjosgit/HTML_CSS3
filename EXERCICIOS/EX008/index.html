@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ouras formatações</h1>
+    <p><code>O comando getElementById("test")</code></p>
+
+
+<code>
+    <pre>
+        
+            $dest = "destinatario@gmail.com"; //Email de destino
+        $assunto = "Assunto"; //Assunto
+        $corpo= "Corpo da mensagem. É permitido o uso de HTML."; //Corpo do e-mail
+        //Cabecalho do email
+        $headers = "De: Gabriella fonseca.gabriella@gmail.comrn"; //Remetente
+        $headers .= "X-Mailer: PHP5n";
+        $headers .= 'MIME-Version: 1.0' . "n";
+        $headers .= 'Content-type: text/html; charset=iso-8859-1' . "rn"; //
+        mail($dest,$assunto,$corpo,$headers);
+        
+    </pre>
+
+    <h1>Citações</h1>
+
+    <h2><q>Como diria o pai de um amigo, o computador é um burro muito rapido</q></h2>
+    
+    <p>Segundo Jeff Noble</p>
+
+    <blockquote cite="www.google.com">
+
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia laborum dolorum, reprehenderit amet expedita culpa deserunt dicta explicabo dolores velit molestiae, delectus iste ipsa ea repellendus veritatis? Tempora, sed molestiae?
+    </blockquote>
+    
+    <p>Estou estudando <abbr title="hyper text markap language">HTML</abbr> e CSS</p>
+
+    <p><bdo dir="rtl">Estou estudando HTML e CSS</bdo></p>
+
+</code>
+
+</body>
+</html>

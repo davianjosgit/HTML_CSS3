@@ -1,0 +1,157 @@
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+body{
+
+    width: 100vw;
+    height: 100%;
+    background-color: var(--cor1);
+    overflow-x: hidden;
+
+}header{
+
+    height: 20%;
+    background-image: linear-gradient( var(--cor2),var(--cor0)
+    
+     70%);
+     text-align: center;
+     box-shadow: 0px 0px 10px var(--cor0) ;
+
+}#titulo ,#subtitulo{
+
+    color: #fff;
+}#subtitulo{
+
+    font-size:1em ;
+    margin-top: 3vh;
+}#titulo{
+
+    font-size:1.5em ;
+    padding-top: 3vh;
+    font-family: 'Bebas Neue', cursive;
+
+}a{
+
+    text-decoration: none;
+    color: white;
+}ul{
+
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+}ul a{
+    padding: 1vw;
+
+}nav{
+    margin-top: 4vh;
+}main{
+
+    background-color: white;
+    width: 70vw;
+    margin: auto;
+    box-shadow: 0px 0px 10px var(--cor0) ;
+}h1,.articleSide{
+    text-align: center;
+    color:var(--cor0) ;
+}.articleSide{
+
+    background-image: linear-gradient(to right , var(--cor2)10%, white);
+    font-family: custom;
+    font-size: 1em;
+    text-align: left;
+    margin:3vw ;
+}#picture1{
+
+width: 70vw;
+}p{
+
+    text-align: justify;
+    margin: 3vw;
+    font-family: sans-serif;
+    text-indent: 4vw;
+    line-height: 2em;
+    font-size: 1em;
+    
+}#pe{
+
+    background-color: var(--cor0);
+    height: 7vh;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 1vh;
+
+
+}.iranaPicture{
+
+    width: 65vw;
+    margin-left: 2.5vw;
+    
+}iframe{
+
+    width: 65vw;
+    height: 65vh;
+    display: flex;
+    background-color: var(--cor0);
+}#more{
+  
+    background-color:var(--cor0);
+    height: auto;
+    border-radius: 1vw 1vw 0vw 0;
+    font-family: sans-serif;
+    color: white;
+    text-align: left;
+
+}#video{
+    background-color:var(--cor0);
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}#moredown{
+
+    background-color:var(--cor1) ;
+    width:60vw ;
+    height: auto;
+    margin: 5vw;
+    margin-bottom: 10vh;
+    border-radius: 1vw ;
+
+}#ol1{
+list-style:none;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between ;
+}@font-face{
+
+    font-family: custom;
+    src:url(componentes/pacote-projeto-d010/fontes/idroid.otf)
+
+}.customfont{
+    font-family: custom;
+    font-size: 1.2em;
+    text-align: left;
+    margin:3vw ;
+    padding-top: 2vh;
+    
+}a:hover{
+
+    background-color: var(--cor1);
+    transition-duration: 0.2s;
+    border-radius: 2px;
+    
+    
+}@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+:root{
+
+--cor0:#1E693F;
+--cor1: #84E1AD;
+--cor2: #39CC7B ;
+
+}#list1{
+
+    margin-left:3vw;
+}#list2{
+    margin-right:3vw ;
+    margin-left:3vw;
+}
+

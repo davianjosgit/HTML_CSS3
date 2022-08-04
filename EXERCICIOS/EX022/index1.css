@@ -1,1 +1,27 @@
-*{margin:0; box-sizing: border-box; padding: 0;}
+*{margin:0; box-sizing: border-box; padding: 1px;}
+body{
+
+    background-image: url(img/wallpaper001.jpg);
+}
+.quadrado{
+
+    border: solid #000;
+    width: 300px;
+    height: 300px;
+    display:inline-block;
+    border-radius: 10px;
+    background-color: aliceblue;
+
+}#q1{
+
+    background-color: blue;
+}#q2{
+
+
+    background-image: linear-gradient(blue, white);
+}#q3{
+
+    background-image: url(img/pattern003.png);
+    background-repeat: ;
+    
+}

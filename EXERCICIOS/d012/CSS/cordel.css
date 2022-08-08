@@ -98,4 +98,7 @@ body{
 }footer{
 
     background-color:#000 ;
+    color: #fff;
+    text-align: center;
+    height: 5vh;
 }

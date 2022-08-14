@@ -5,20 +5,143 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela Semâtica(grandes)</title>
+    <style>
+
+        table, td, th, tfoot {
+
+            border:solid 1px black;
+            border-collapse: collapse;
+            padding: 10px;
+            
+        }table{
+
+            width: 500px;
+            position: relative;
+        }thead, tfoot{
+
+            color: aliceblue;
+            background-color: gray;
+        }caption{
+
+            color: red;
+        }tboy>tr:nth-child(2n){
+
+            background-color: aqua;
+        }tbody>tr:hover{
+            background-color: aqua;
+        }thead > tr> th{
+
+            position: sticky;
+            top:0;
+            background-color: gray;
+        }
+    </style>
 </head>
 <body>
     <table>
+        <caption>Unidades da federação</caption>
         <thead>
            <tr>
-            <th>Estado</th>
-            <th>Populção</th>
-           </tr>
+            <th scope="col">Estado</th>
+            <th scope="col" >Populção</th>
         </thead>
-        <tbody></tbody>
-        <tfoot></tfoot>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td id="sao">41 262 199</td>   
+            </tr>
+            <tr>
+                <td >Minas Gerais</td>
+                <td id="minas">19 597 330</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td id="rio">15 989 929</td>
 
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td id="rio">15 989 929</td>
 
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td id="rio">15 989 929</td>
 
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td id="rio">15 989 929</td>
+
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td id="rio">15 989 929</td>
+
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td id="rio">15 989 929</td>
+
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td id="rio">15 989 929</td>
+
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td id="rio">15 989 929</td>
+
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td id="rio">15 989 929</td>
+
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td id="rio">15 989 929</td>
+
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td id="rio">15 989 929</td>
+
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td id="rio">15 989 929</td>
+
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td id="rio">15 989 929</td>
+
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td id="rio">15 989 929</td>
+
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td id="rio">15 989 929</td>
+
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td id="rio">15 989 929</td>
+
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de habitantes</th>
+                <td id="total">41 262 199</td>
+            </tr>
+        </tfoot>
     </table>
+    
 </body>
 </html>
